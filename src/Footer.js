@@ -12,6 +12,14 @@ render(){
                   <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
                   is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
                 </p>
+                <div className="footer">
+                    
+                        <a href="https://github.com/mocktarissa"> Mocktar Issa  <i class="fab fa-github has-text-centered"></i></a>
+                        <a href="https://twitter.com/mocktarissa"> Mocktar Issa  <i class="fab fa-twitter has-text-centered"></i></a>
+                        <a href="https://instagram.com/mocktar_issa"> Mocktar Issa <i class="fab fa-instagram has-text-centered"></i></a>
+                        <a href="https://www.linkedin.com/in/mocktar-issa-30a9674a/"> Mocktar Issa  <i class="fab fa-linkedin has-text-centered"></i></a>
+                    
+                </div>
                 <p>
                     Built with love using <a href="https://bulma.io">
                     <img src="https://bulma.io/images/bulma-logo.png" width={50} height={28} />
