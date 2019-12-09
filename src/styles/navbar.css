@@ -55,10 +55,23 @@ margin-top: 1.5em;
         transform: rotate(360deg);
     }
 }
-.logo:hover .fabi{
+.logo:hover .fabi,logo{
 animation: logRO 5s linear infinite;
 transform: scale(1.2);
 color: black;
 }
 
+@media screen and (max-width:1000px){
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
 
+}
+.header>li{
+    width: 100%;
+    
+    text-align: center;
+}
+
+}
