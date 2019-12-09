@@ -1,0 +1,148 @@
+
+  
+    
+.jb-is{
+    
+}
+.exte{
+
+margin: 15px 10px;
+color:black;
+size: auto;
+text-transform: lowercase;
+font-weight: 100;
+transition-duration: 2s;
+
+
+
+}
+.exte:hover{
+    transform: scale(1.20);
+    border-radius: 0%;
+    position: relative;
+    transition-duration: 0.75s;
+    background-color: #000000de;
+    color:rgb(255, 255, 255);
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    opacity: 1.5;
+}
+.imge{
+    
+    
+background-color: rgba(98, 189, 98, 0.116);
+margin: 1px 10px;
+background: url("https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+
+}
+.hovr{
+    opacity: 0;
+    text-decoration: none;
+    border: 0;
+    position: absolute;
+    margin: auto;
+}
+.imge:hover .hovr{
+opacity: 1;
+background: #00ffee;
+color: rgba(190, 189, 114, 0.424);
+text-align: center;
+margin: auto;
+position: absolute;
+}
+.imge:hover{
+    position: relative;
+   
+}
+.imge::after {
+    content: "";
+    background: url("https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+.imge:hover img{
+    opacity:0.5;
+    transform: scale(0.9);
+}
+@keyframes ladsh{
+    0%{
+        transform: rotate(0deg) scale(1);
+        margin-top: 10%;
+        margin-top: 10%;
+        margin-bottom:10% ;
+        border-top-color: pink ;
+        border-bottom-color: greenyellow;
+    }
+    20%{
+        transform: rotate(100deg) scale(1.2);
+        margin-top: 10%;
+        margin-top: 10%;
+        margin-bottom:10% ;
+        border-top-color: rgb(209, 93, 112) ;
+        border-bottom-color: rgb(167, 196, 125);
+    }
+
+    60%{
+
+        transform: rotate(200deg) scale(1.375);
+        margin-top: 10%;
+        margin-top: 10%;
+        margin-bottom:10% ;
+        border-top-color: rgb(148, 13, 36) ;
+        border-bottom-color: rgb(167, 172, 160);
+    }
+    100%{
+        transform: rotate(360deg) scale(1.6);
+        margin-top: 10%;
+        margin-bottom:10% ;
+        border-top-color: rgb(29, 18, 184) ;
+        border-bottom-color: rgb(118, 190, 10);
+    }
+}
+.load{
+margin: auto;
+margin-top: 10%;
+width: 120px;
+height: 120px;
+border: 16px solid rgb(218, 92, 92);
+border-top-color: pink ;
+border-bottom-color: greenyellow;
+animation: ladsh 5s linear infinite;
+border-radius: 50%;
+
+}
+.load:hover{
+    animation-play-state: paused;
+}
+.contact{
+    text-align: left;
+}
+
+.title{
+    margin: auto;
+    font-size: 80px ;
+    
+}
+
+.title hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.jumbotron{
+   
+}
+.black{
+    background: black;
+    color: white;
+    margin-top: 1em;
+}
+

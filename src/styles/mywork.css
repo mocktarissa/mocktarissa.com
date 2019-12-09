@@ -1,0 +1,8 @@
+.card{
+    width: 20%;
+    margin: auto;
+}
+
+div{
+display: flex-reverse;
+}

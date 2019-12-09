@@ -1,59 +1,51 @@
 import React from 'react';
-
+import "./styles/navbar.css"
 class Navbar extends React.Component{
+  constructor(props){
+    super(props);
+    this.state={
 
+    }
+  }
     render(){
+      var Lr=this.props.background;
         return (
+          <div classNAme={Lr+" naver"}>
+         <nav className="header">
+         <div className="logo">
+         <i class="fab fa-hornbill fabi"></i>
+            <span>
+              M
+              </span>
+              <span>
+                I
+                </span>
+                <span>
+                  .
+                </span>
+          </div>
+          
         
-       <nav className="navbar" role="navigation" aria-label="main navigation">
-        <div className="navbar-brand">
-          <a className="navbar-item" href="https://www.mocktarissa.com"> 
-            <span class="icon">
-  <i class="glyphicon glyphicon-console"></i>
-</span> <b>Mocktar</b>
-          </a>
-          <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true" />
-            <span aria-hidden="true" />
-            <span aria-hidden="true" />
-          </a>
-        </div>
-        <div id="navbarBasicExample" className="navbar-menu">
-          <div className="navbar-start">
-            <a className="navbar-item">
-              Home
-            </a>
-            <a className="navbar-item">
-              My Work
-            </a>
-            <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link">
-                More
-              </a>
-              <div className="navbar-dropdown">
-                <a className="navbar-item">
-                  Blog
-                </a>
-                <hr className="navbar-divider" />
-                <a className="navbar-item">
-                  About
-                </a>
-                
-                
-              </div>
-            </div>
-          </div>
-          <div className="navbar-end">
-          <a className="navbar-item">
-                  Github
-                </a>
-                
-                <a className="navbar-item">
-                  Contact
-                </a>
-          </div>
-        </div>
-      </nav>);
+         <li><a href=""> <i class="fab fa-houzz"></i> Home</a> </li>
+          <li><a href="">
+          <i class="fas fa-code"></i> Portfolio
+            </a></li>
+          <li><a href="">
+          <i class="fas fa-cart-arrow-down"></i> Shop
+            </a></li>
+          <li><a href="">
+          <i class="fab fa-pushed"></i> About me
+            </a> </li>
+          <li className="btne"><a href="" className="btne"><i class="fas fa-id-card"></i> Contact
+            </a></li>
+           
+        
+
+
+
+         </nav>
+                    </div>
+        );
     }
 }
 

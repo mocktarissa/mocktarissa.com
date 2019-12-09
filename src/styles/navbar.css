@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+li,a,button{
+    text-decoration: none; 
+    color:grey;
+}
+.nav{
+    background:white;
+    color: black;}
+.dark{
+    background:black;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-top: 0.25em;
+    margin-bottom: 2%;
+}
+
+.header >li{
+list-style: none;
+text-decoration: none;
+margin-top: 1.5em;
+}
+.header >li>a:hover{
+    
+    text-decoration: none;
+    color: black;
+    border-bottom: 0.5px solid green;
+    
+}
+.header>li:hover{
+    transform:scale(1.22);
+}
+.naver{
+    height: 100px;
+    margin-top: 12px;
+}
+
+.logo{
+    font-size: 50px;
+    color: rgb(131, 94, 94);
+}
+@keyframes logRO{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.logo:hover .fabi{
+animation: logRO 5s linear infinite;
+transform: scale(1.2);
+color: black;
+}
+
+
