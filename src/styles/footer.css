@@ -3,4 +3,64 @@
     width: 100%;
     background: white;
     margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
+.footer>li{
+    font-style: normal;
+    list-style: none;
+    font-size: 50px;
+}
+.fa-youtube{
+    color: black;
+}
+.fa-twitter{
+    color:black;
+}
+
+.fa-instagram{
+    color: black;
+}
+
+.fa-github{
+    color: black;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-twitter:hover{
+    color:lightskyblue
+}
+
+.fa-instagram:hover{
+    color: blue;
+}
+
+.fa-github:hover{
+    color: black;
+}
+.fa-medium{
+    color:black;
+}
+@media screen and (max-width:1000px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .fa-youtube{
+        color: red;
+    }
+    .fa-twitter{
+        color:lightskyblue
+    }
+    
+    .fa-instagram{
+        color: blue;
+    }
+    
+    .fa-github{
+        color: black;
+    }  
+}
+
