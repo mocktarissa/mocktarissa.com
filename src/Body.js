@@ -21,7 +21,7 @@ class Body extends React.Component {
 
         <div class={background}>
           <div class="container">
-            <h1 class="display-4">Hello I'm Mocktar</h1>
+            <h1 class="display-4">Hello I'm Mocktar(This site is still under construction))</h1>
             <p class="lead">
               I'm a multi-talented human. Most of my time I design and build digital products. You can also call me a product designer, experience designer, interaction, UI, UX or by any other market defined function-title. I'm also a multi-disciplinary maker with over 5 years of experience in wide range of design disciplines, manager, advisor, entrepreneur, front-end developer, music enthusiast, traveler, photographer and more.
           
