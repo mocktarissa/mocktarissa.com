@@ -1,7 +1,7 @@
 import React from 'react';
 import './RICK.png';
 import './styles/body.css';
-import ContactMe from './ContactMe';
+import Contact from './containers/Contact';
 import Load from './components/Load';
 import MyWork from './components/MyWork'
 
@@ -16,8 +16,6 @@ class Body extends React.Component {
     var background = this.props.background + " jumbotron jumbotron-fluid jb-is"
     return (
       <div className={background}>
-
-
 
         <div class={background}>
           <div class="container">
@@ -74,7 +72,7 @@ class Body extends React.Component {
             </div>
           </div>
         </div>
-        <ContactMe />
+        
         <Load></Load>
        
       </div>

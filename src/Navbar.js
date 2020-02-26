@@ -1,5 +1,6 @@
 import React from 'react';
 import "./styles/navbar.css"
+import { Link } from 'react-router-dom';
 class Navbar extends React.Component{
   constructor(props){
     super(props);
@@ -26,18 +27,26 @@ class Navbar extends React.Component{
           </div>
           
         
-         <li><a href=""> <i class="fab fa-houzz"></i> Home</a> </li>
-          <li><a href="">
+         <li>
+            
+           <Link exact to="/home"><i class="fab fa-houzz"></i> Home</Link>
+           </li>
+          <li><Link exact to="portfolio">
           <i class="fas fa-code"></i> Portfolio
-            </a></li>
-          <li><a href="">
+          </Link>
+          </li>
+
+          <li><Link exact to="/shop">
           <i class="fas fa-cart-arrow-down"></i> Shop
-            </a></li>
-          <li><a href="">
+          </Link></li>
+          <li><Link exact to="AboutMe">
           <i class="fab fa-pushed"></i> About me
-            </a> </li>
-          <li className="btne"><a href="" className="btne"><i class="fas fa-id-card"></i> Contact
-            </a></li>
+          </Link>
+             </li>
+          <li ><Link exact to="contact">
+          <i class="fas fa-id-card"></i>Contact
+          </Link> 
+            </li>
            
         
 

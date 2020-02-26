@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles/body.css'
+import '../styles/body.css'
 
-class ContactMe extends React.Component{
+class Contact extends React.Component{
     constructor(props){
         super(props);
         this.handlesubmit=this.handlesubmit.bind(this);
@@ -19,7 +19,7 @@ class ContactMe extends React.Component{
                <div class="form-group">
                   <label htmlFor="email">Email address</label>
                   <input type="email" id="email" className="form-control"/>
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
                 <label htmlFor="text"> Message</label>
@@ -34,4 +34,4 @@ class ContactMe extends React.Component{
     }
 };
 
-export default ContactMe;
+export default Contact;

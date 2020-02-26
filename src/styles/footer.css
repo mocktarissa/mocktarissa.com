@@ -43,6 +43,11 @@
 .fa-medium{
     color:black;
 }
+p{
+text-align: center;
+color: black;
+size: 40px;    
+}
 @media screen and (max-width:1000px){
     .footer{
         display: flex;
