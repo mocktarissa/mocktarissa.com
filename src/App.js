@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
-import Body from './Body';
+
 import Footer from './Footer';
 import Portfolio from './containers/Portfolio';
 import {Route, Switch} from 'react-router-dom';
