@@ -29,7 +29,7 @@ class Navbar extends React.Component{
         
          <li>
             
-           <Link exact to="/home"><i class="fab fa-houzz"></i> Home</Link>
+           <Link exact to="/"><i class="fab fa-houzz"></i> Home</Link>
            </li>
           <li><Link exact to="portfolio">
           <i class="fas fa-code"></i> Portfolio
