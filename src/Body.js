@@ -1,9 +1,9 @@
 import React from 'react';
 import './RICK.png';
 import './styles/body.css';
-import Contact from './containers/Contact';
+// import Contact from './containers/Contact';
 import Load from './components/Load';
-import MyWork from './components/MyWork'
+// import MyWork from './components/MyWork'
 
 class Body extends React.Component {
   constructor(props) {
