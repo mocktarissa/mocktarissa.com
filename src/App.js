@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './App.css';
 import Navbar from './Navbar';
 import Body from './Body';
@@ -31,6 +30,7 @@ class App extends React.Component {
       <div className="App">
         <Navbar background={this.state.background? "dark":" "}/>
        <Switch> 
+         <Route exact path="/" render={()=><Home/>}></Route>
         <Route exact path="/contact" render={()=><Contact/>}/>
         <Route exact path="/portfolio" render={()=><Portfolio/>}/>
         <Route exact path="/shop" render={()=><Shop/>}/>
