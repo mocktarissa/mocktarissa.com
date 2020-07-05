@@ -1,7 +1,6 @@
 .footer{
     height: 10px;
     width: 100%;
-    
     margin-top: 0.2rem;
     display: flex;
     justify-content: space-evenly;
@@ -71,7 +70,17 @@ size: 40px;
     }  
 }
 
-.owner{
-    
-    bottom: 0;
+@media screen and (max-width:600px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        height: 20vh;
+        align-items: center;
+        text-align: center;
+        justify-items: left;
+    }
+    .footer .fa{
+        text-align: left;
+    }
 }
