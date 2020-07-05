@@ -3,7 +3,7 @@ import './RICK.png';
 import './styles/body.css';
 // import Contact from './containers/Contact';
 import Load from './components/Load';
-// import MyWork from './components/MyWork'
+import MyWork from './components/MyWork'
 
 class Body extends React.Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class Body extends React.Component {
     var background = this.props.background + " jumbotron jumbotron-fluid jb-is"
     return (
       <div className={background}>
-
+        <MyWork/>
         <div class={background}>
           <div class="container">
             <h1 class="display-4">Hello I'm Mocktar(This site is still under construction)</h1>
