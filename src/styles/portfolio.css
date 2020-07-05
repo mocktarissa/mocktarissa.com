@@ -1,25 +1,5 @@
-.portfolio-container{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.portfolio-container div{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto  ;
-    text-align: center;
-    height: 100px;
-}
-.portfolio-container div:hover{
-    position: absolute;
-    transform: scaleX(1.1);
-}
-.portfolio-container div img{
-    border:1px solid black;
-    border-radius: 50%;
-    opacity: 1;
-    z-index: 3;
+div{
+    height: 70vh;
 }
 
 

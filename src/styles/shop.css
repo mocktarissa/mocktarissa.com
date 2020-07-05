@@ -1,0 +1,9 @@
+.temp{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin:auto;
+    font-size: 4rem;
+    height: 70vh;
+    width: 100vw;
+}
