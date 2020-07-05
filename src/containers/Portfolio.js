@@ -11,9 +11,7 @@ class Portfolio extends React.Component{
     }
     
     render(){
-        return        <div></div>
-        <MyWork/>          
-        </div>
+        return       <MyWork/>
     }
 }
 
