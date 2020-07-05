@@ -28,8 +28,14 @@ border-radius: 5px;
     font-size: 1rem;
     padding: 4px;
     margin-bottom: 0.5rem;
+    opacity: 0.5;
 }
-
+.car a:hover{
+background-color:#8094cf ;
+color: rgb(231, 195, 195);
+transform: scale(1.1);
+opacity: 1;
+}
 .card p{
     font-size: 0.7rem;
 }
