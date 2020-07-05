@@ -3,7 +3,7 @@ import '../styles/shop.css'
 class Shop extends React.Component{
     render(){
         return <div className="temp">
-            Comming soon
+            Coming soon
         </div>
     }
 }
