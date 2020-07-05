@@ -19,6 +19,30 @@ class MyWork extends React.Component{
                     link:"https://react-color-picker-ui.netlify.app/",
                     img:movielist
                 },
+                {
+                    jobTile:"React Color Picker",
+                    description:"Color palette generator built using React and React Router",
+                    link:"https://react-color-picker-ui.netlify.app/",
+                    img:movielist
+                },
+                {
+                    jobTile:"React Color Picker",
+                    description:"Color palette generator built using React and React Router",
+                    link:"https://react-color-picker-ui.netlify.app/",
+                    img:movielist
+                },
+                {
+                    jobTile:"React Color Picker",
+                    description:"Color palette generator built using React and React Router",
+                    link:"https://react-color-picker-ui.netlify.app/",
+                    img:movielist
+                },
+                {
+                    jobTile:"React Color Picker",
+                    description:"Color palette generator built using React and React Router",
+                    link:"https://react-color-picker-ui.netlify.app/",
+                    img:movielist
+                },
             ]
         }
     }
@@ -29,9 +53,10 @@ class MyWork extends React.Component{
             {this.state.jobs.map(
             job=>{
                 return <div class="card" >
+                <img src={job.img} alt={job.jobTile}/>
                 <h3>{job.jobTile}</h3>
                 <p>{job.description}</p>
-                <img src={job.img} alt={job.jobTile}/>
+                
                 <a href={job.link}>View Live Page</a>
                 </div>
             }    
