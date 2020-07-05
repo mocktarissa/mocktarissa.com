@@ -1,5 +1,6 @@
-div{
+.portfolio-container{
     height: 70vh;
+    align-items: center;
 }
 
 
