@@ -25,14 +25,14 @@ class MyWork extends React.Component{
 
     render(){
         return(
-            <div className="container">
+            <div className="container-project">
             {this.state.jobs.map(
             job=>{
                 return <div class="card" >
                 <h3>{job.jobTile}</h3>
                 <p>{job.description}</p>
                 <img src={job.img} alt={job.jobTile}/>
-                <a href={job.link}>View</a>
+                <a href={job.link}>View Live Page</a>
                 </div>
             }    
             )}
