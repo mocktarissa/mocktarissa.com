@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/mywork.css'
-import movielist from './movie-list.png' 
+import movielist from './movie-list.png';
+import colorpalette from './img/react-color-picker.png'
+import dadjokes from './img/dad-jokes.png'
 class MyWork extends React.Component{
     constructor(props){
         super(props);
@@ -17,13 +19,13 @@ class MyWork extends React.Component{
                     jobTile:"React Color Picker",
                     description:"Color palette generator built using React and React Router",
                     link:"https://react-color-picker-ui.netlify.app/",
-                    img:movielist
+                    img:colorpalette,
                 },
                 {
                     jobTile:"React Color Picker",
                     description:"Color palette generator built using React and React Router",
-                    link:"https://react-color-picker-ui.netlify.app/",
-                    img:movielist
+                    link:"https://where-are-dads-jokes.netlify.app/",
+                    img:dadjokes,
                 },
                 
             ]
