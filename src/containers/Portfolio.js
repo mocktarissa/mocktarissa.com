@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import '../styles/portfolio.css'
+import MyWork from '../components/MyWork';
 class Portfolio extends React.Component{
     constructor(props){
         super(props);
@@ -10,22 +11,8 @@ class Portfolio extends React.Component{
     }
     
     render(){
-        var projects=this.state.data.map( 
-            p =>(
-                <div > 
-                    <img src={p.owner.avatar_url} alt="Logo"/>
-                    {p.owner.login}
-                     <a href={p.archive_url}> {p.id}</a>
-                    <div>
-                        {p.description}
-                        <br/>
-                        {p.full_name}
-                    </div>
-                </div>
-            )
-        );
-        return <div className="portfolio-container">
-            {projects}
+        return        <div></div>
+        <MyWork/>          
         </div>
     }
 }
