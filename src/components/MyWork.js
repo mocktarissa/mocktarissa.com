@@ -7,8 +7,8 @@ class MyWork extends React.Component{
         this.state={
             jobs:[
                 {   
-                    jobTile:"React Color Picker",
-                    description:"Color palette generator built using React and React Router",
+                    jobTile:"Movie List ",
+                    description:"Movie sugestion website built using react",
                     link:"https://react-color-picker-ui.netlify.app/",
                     img:movielist
 
