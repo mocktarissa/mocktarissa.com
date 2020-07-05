@@ -17,7 +17,7 @@ class MyWork extends React.Component{
                     jobTile:"React Color Picker",
                     description:"Color palette generator built using React and React Router",
                     link:"https://react-color-picker-ui.netlify.app/",
-                    img:"movie-list.png"
+                    img:movielist
                 },
             ]
         }
