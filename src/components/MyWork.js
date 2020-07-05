@@ -22,8 +22,8 @@ class MyWork extends React.Component{
                     img:colorpalette,
                 },
                 {
-                    jobTile:"React Color Picker",
-                    description:"Color palette generator built using React and React Router",
+                    jobTile:"Dad joke ranker ",
+                    description:"React app built using the Dad joke API",
                     link:"https://where-are-dads-jokes.netlify.app/",
                     img:dadjokes,
                 },
