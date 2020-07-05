@@ -11,7 +11,7 @@ class MyWork extends React.Component{
                 {   
                     jobTile:"Movie List ",
                     description:"Movie sugestion website built using react",
-                    link:"https://react-color-picker-ui.netlify.app/",
+                    link:"https://what-do-i-watch-next.netlify.app/",
                     img:movielist
 
                 },
