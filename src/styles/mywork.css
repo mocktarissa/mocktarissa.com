@@ -1,5 +1,6 @@
 .container-project{
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 .card{
     background: #e9ecef;
@@ -24,7 +25,11 @@ border-radius: 5px;
     background:#242e4c;
     color: white;
     border-radius: 5px;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 4px;
     margin-bottom: 0.5rem;
+}
+
+.card p{
+    font-size: 0.7rem;
 }
