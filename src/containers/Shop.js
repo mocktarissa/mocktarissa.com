@@ -1,8 +1,8 @@
 import React from 'react';
-
+import '../styles/shop.css'
 class Shop extends React.Component{
     render(){
-        return <div style={{height:"100px"}}>
+        return <div className="temp">
             Comming soon
         </div>
     }
