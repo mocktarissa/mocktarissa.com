@@ -12,7 +12,7 @@ render(){
         <li><a href="https://medium.com/@mocktarissa"><i class="fab fa-youtube"></i>Youtube</a></li>
 
         </div> 
-                <p>&copy; Mocktar Issa</p>
+               
      </div>     );
    
 }

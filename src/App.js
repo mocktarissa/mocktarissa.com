@@ -35,11 +35,9 @@ class App extends React.Component {
         <Route exact path="/portfolio" render={()=><Portfolio/>}/>
         <Route exact path="/shop" render={()=><Shop/>}/>
         <Route exact path="/about" render={()=><AboutMe/>}/>
-       </Switch>
-        <button className="floot" onClick={this.handleUiChange}> {this.state.background ? "White Mode":"Dark mode" } </button>
-                     
+       </Switch>                     
         <Footer/>
-        
+  
          </div>
     );
   }
