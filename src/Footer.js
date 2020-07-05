@@ -10,7 +10,6 @@ render(){
         <li><a href="https://medium.com/@mocktarissa"><i class="fab fa-instagram"></i>Instagram</a></li>
         <li><a href="https://medium.com/@mocktarissa"><i class="fab fa-twitter"></i>Twitter</a></li>
         <li><a href="https://medium.com/@mocktarissa"><i class="fab fa-youtube"></i>Youtube</a></li>
-
         </div> 
                
      </div>     );

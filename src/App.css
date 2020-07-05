@@ -1,5 +1,6 @@
 .html{
   background: white;
+  box-sizing: border-box;
 }
 
 .floot{

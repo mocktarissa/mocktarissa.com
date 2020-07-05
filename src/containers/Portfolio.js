@@ -8,17 +8,7 @@ class Portfolio extends React.Component{
             data:[],
         }
     }
-    async componentDidMount(){
-        let res= await axios.get("https://api.github.com/users/mocktarissa/repos");
-        
-            
-            this.setState(
-               {data:res.data,} 
-            )
-        
     
-        console.log(res.data);
-    }
     render(){
         var projects=this.state.data.map( 
             p =>(

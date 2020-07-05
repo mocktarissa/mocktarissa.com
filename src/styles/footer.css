@@ -1,10 +1,12 @@
 .footer{
+    height: 10px;
     width: 100%;
-    background: white;
-    margin-top: 10%;
+    
+    margin-top: 0.2rem;
     display: flex;
     justify-content: space-between;
     align-content: center;
+    margin-bottom: 0.4rem;
     
 }
 .footer>li{
