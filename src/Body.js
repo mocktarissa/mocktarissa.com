@@ -20,7 +20,7 @@ class Body extends React.Component {
           <div class="container">
             <h1 class="display-4">Hello I'm Mocktar(This site is still under construction)</h1>
             <p class="lead">
-              I am Software Engineer/Web Developper with experience with industry experience with Machine Learning and Quality Assurance. 
+              I am Software Engineer/Web Developper.
           
 </p>
           </div>
