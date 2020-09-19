@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/mywork.css'
-import movielist from './movie-list.png';
+import movielist from './img/movie-list.png';
 import colorpalette from './img/react-color-picker.png'
 import dadjokes from './img/dad-jokes.png'
 class MyWork extends React.Component{
