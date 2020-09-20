@@ -16,7 +16,7 @@ class Navbar extends React.Component{
 	
 	{/* <!-- logo image --> */}
 	<div class="site-logo">
-		<a href="index-2-light.html">
+		<a href="/">
 			<img src="images/logo-512.png" alt="Bolby" />
 		</a>
 	</div>
