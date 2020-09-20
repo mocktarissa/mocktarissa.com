@@ -19,6 +19,7 @@ class Body extends React.Component {
   render() {
     
     return (
+
       <main>
       <Home></Home>
       <About></About>
