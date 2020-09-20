@@ -17,8 +17,8 @@ class Body extends React.Component {
     var background = this.props.background + " jumbotron jumbotron-fluid jb-is"
     return (
       <main>
-      <section id="about">
       <Home></Home>
+      <section id="about">
 		<div className="container">
 			
 			{/* <!-- section title --> */}
