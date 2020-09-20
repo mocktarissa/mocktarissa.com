@@ -8,7 +8,9 @@ import {Route, Switch} from 'react-router-dom';
 import Contact from './containers/Contact';
 import Home from './containers/Home';
 import Shop from './containers/Shop';
-import AboutMe from './containers/AboutMe'
+import AboutMe from './containers/AboutMe';
+import Body from './Body'
+  
 class App extends React.Component {
   constructor(props){
     super(props);
@@ -29,6 +31,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Navbar background={this.state.background? "dark":" "}/>
+
        <Switch> 
          <Route exact path="/" render={()=><Home/>}></Route>
         <Route exact path="/contact" render={()=><Contact/>}/>

@@ -1,6 +1,10 @@
 import React from 'react';
 import './RICK.png';
 import './styles/body.css';
+import Home from './components/Home'
+import About from './components/About'
+import Experience from './components/Experience'
+import MyStack from './components/MyStack'
 // import Contact from './containers/Contact';
 
 import MyWork from './components/MyWork'
@@ -13,9 +17,10 @@ class Body extends React.Component {
     }
   }
   render() {
-    var background = this.props.background + " jumbotron jumbotron-fluid jb-is"
+    
     return (
-          <main>
+
+      <main>
       <Home></Home>
       <About></About>
       <Experience></Experience>

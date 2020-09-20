@@ -9,51 +9,39 @@ class Navbar extends React.Component{
     }
   }
     render(){
-      var Lr=this.props.background;
+      
         return (
-          <div classNAme={Lr+" naver"}>
-         <nav className="header">
-         <div className="logo">
-         <i class="fab fa-hornbill fabi"></i>
-            <span>
-              M
-              </span>
-              <span>
-                I
-                </span>
-                <span>
-                  .
-                </span>
-          </div>
           
-        
-         <li>
-            
-           <Link exact to="/"><i class="fab fa-houzz"></i> Home</Link>
-           </li>
-          <li><Link exact to="portfolio">
-          <i class="fas fa-code"></i> Portfolio
-          </Link>
-          </li>
+<header class="desktop-header-2 light d-flex align-items-start flex-column">
+	
+	{/* <!-- logo image --> */}
+	<div class="site-logo">
+		<a href="index-2-light.html">
+			<img src="images/logo-512.png" alt="Bolby" />
+		</a>
+	</div>
+	
+	{/* <!-- main menu --> */}
+	<nav>
+		<ul class="vertical-menu scrollspy">
+			<li class="active"><a href="#home"><i class="icon-home"></i></a></li>
+			<li><a href="#about"><i class="icon-user-following"></i></a></li>
+			<li><a href="#services"><i class="icon-briefcase"></i></a></li>
+			<li><a href="#experience"><i class="icon-graduation"></i></a></li>
+			<li><a href="#works"><i class="icon-layers"></i></a></li>
+			<li><a href="#blog"><i class="icon-note"></i></a></li>
+			<li><a href="#contact"><i class="icon-bubbles"></i></a></li>
+      <li><a href="#medium"><i class="icon-book-open"></i></a></li>
+		</ul>
+	</nav>
+	
+	{/* <!-- site footer --> */}
+	<div class="footer">
+		{/* <!-- copyright text --> */}
+		<span class="copyright">© 2020 <a href="https://github.com/mocktarissa/">Mocktar Issa</a></span>
+	</div>
 
-          <li><Link exact to="/shop">
-          <i class="fas fa-cart-arrow-down"></i> Shop
-          </Link></li>
-          <li><Link exact to="AboutMe">
-          <i class="fab fa-pushed"></i> About me
-          </Link>
-             </li>
-          <li ><Link exact to="contact">
-          <i class="fas fa-id-card"></i>Contact
-          </Link> 
-            </li>
-           
-        
-
-
-
-         </nav>
-                    </div>
+</header>
         );
     }
 }
