@@ -2340,11 +2340,7 @@ body.dark .blog-page-section .blog-single {
   height: 100%;
 }
 
-.mfp-zoom-in {
-  /* start state */
-  /* animate in */
-  /* animate out */
-}
+
 .mfp-zoom-in .mfp-with-anim {
   opacity: 0;
   -webkit-transition: all 0.2s ease-in-out;

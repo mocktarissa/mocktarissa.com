@@ -1,6 +1,6 @@
 import React from 'react';
 import "./styles/navbar.css"
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 class Navbar extends React.Component{
   constructor(props){
     super(props);
@@ -26,8 +26,8 @@ class Navbar extends React.Component{
 		<ul class="vertical-menu scrollspy">
 			<li class="active"><a href="#home"><i class="icon-home"></i></a></li>
 			<li><a href="#about"><i class="icon-user-following"></i></a></li>
-			<li><a href="#services"><i class="icon-briefcase"></i></a></li>
 			<li><a href="#experience"><i class="icon-graduation"></i></a></li>
+			<li><a href="#services"><i class="icon-briefcase"></i></a></li>
 			<li><a href="#works"><i class="icon-layers"></i></a></li>
 			<li><a href="#blog"><i class="icon-note"></i></a></li>
 			<li><a href="#contact"><i class="icon-bubbles"></i></a></li>
