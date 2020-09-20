@@ -17,7 +17,7 @@ class Navbar extends React.Component{
 	{/* <!-- logo image --> */}
 	<div class="site-logo">
 		<a href="index-2-light.html">
-			<img src="images/logo-b-dark.svg" alt="Bolby" />
+			<img src="images/logo-512.png" alt="Bolby" />
 		</a>
 	</div>
 	
@@ -31,6 +31,7 @@ class Navbar extends React.Component{
 			<li><a href="#works"><i class="icon-layers"></i></a></li>
 			<li><a href="#blog"><i class="icon-note"></i></a></li>
 			<li><a href="#contact"><i class="icon-bubbles"></i></a></li>
+      <li><a href="#medium"><i class="icon-book-open"></i></a></li>
 		</ul>
 	</nav>
 	
