@@ -15,35 +15,12 @@ class Body extends React.Component {
   render() {
     var background = this.props.background + " jumbotron jumbotron-fluid jb-is"
     return (
-      <div className={background}>
-        <div class={background}>
-          <div class="container">
-            <h1 class="display-4">Hello I'm Mocktar(This site is still under construction)</h1>
-            <p class="lead">
-              I am Software Engineer/Web Developer.
-          
-</p>
-          </div>
-
-        </div>
-
-        <div className="container">
-          <div class="title">
-            <h1> PORTFOLIO</h1>
-            <hr />
-          </div>
-
-          <MyWork/>
-
-
-
-          
-
-        </div>
-        
-        {/* <Load></Load> */}
-       
-      </div>
+          <main>
+      <Home></Home>
+      <About></About>
+      <Experience></Experience>
+      <MyStack></MyStack>
+      </main>
     );
   }
 }
