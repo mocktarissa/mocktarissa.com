@@ -32,7 +32,7 @@ class About extends Component {
 								{/* <!-- about text --> */}
 								<p>I am Mocktar Issa. I have rich experience web development, software engineering and cloud technologies , I also build a few AI projects times to time</p>
 								<div className="mt-5 content-about">
-									<a href="#" className="btn btn-default">Download CV</a>
+									<a href="/download/cv" className="btn btn-default">Download CV</a>
 								</div>
 								<div className="spacer d-md-none d-lg-none" data-height="30"></div>
 							</div>

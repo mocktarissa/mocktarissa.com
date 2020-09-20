@@ -1,6 +1,6 @@
 
 import React from 'react';
-import App from '../App';
+
 
 class Home extends React.Component {
     constructor(props) {
@@ -23,11 +23,11 @@ class Home extends React.Component {
 
 				{/* <!-- social icons --> */}
 				<ul className="social-icons light list-inline mb-0 mt-5">
-					<li className="list-inline-item"><a href="#"><i className="fab fa-instagram"></i></a></li>
-					<li className="list-inline-item"><a href="#"><i className="fab fa-twitter"></i></a></li>
-					<li className="list-inline-item"><a href="#"><i className="fab fa-behance"></i></a></li>
-					<li className="list-inline-item"><a href="#"><i className="fab fa-dribbble"></i></a></li>
-					<li className="list-inline-item"><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
+					<li className="list-inline-item"  ><a href="https://www.instagram.com/mocktar_issa/" ><i className="fab fa-instagram"></i></a></li>
+					<li className="list-inline-item" ><a href="https://twitter.com/mocktarissa" ><i className="fab fa-twitter"></i></a></li>
+					<li className="list-inline-item" ><a href="https://github.com/mocktarissa" ><i className="fab fa-github"></i></a></li>
+					<li className="list-inline-item" ><a href="https://medium.com/@mocktarissa" ><i className="fab fa-medium"></i></a></li>
+					<li className="list-inline-item" ><a href="https://www.linkedin.com/in/mocktar-issa-30a9674a/"><i className="fab fa-linkedin" ></i></a></li>
 				</ul>
 
 				{/* <!-- buttons --> */}

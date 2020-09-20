@@ -5,9 +5,8 @@ import Home from './components/Home'
 import About from './components/About'
 import Experience from './components/Experience'
 import MyStack from './components/MyStack'
-// import Contact from './containers/Contact';
 
-import MyWork from './components/MyWork'
+// import MyWork from './components/MyWork'
 
 class Body extends React.Component {
   constructor(props) {
