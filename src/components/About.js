@@ -82,7 +82,7 @@ class About extends Component {
 								</div>
                 <div className="skill-item">
 									<div className="skill-info clearfix">
-										<h4 className="float-left mb-3 mt-0">Machine Learning Engineering</h4>
+										<h4 className="float-left mb-3 mt-0">Machine Learning</h4>
 										<span className="float-right">Hobbyist</span>
 									</div>
 									
