@@ -19,7 +19,7 @@ class Home extends React.Component {
 
 				{/* <!-- info --> */}
 				<h1 className="mb-2 mt-0">Mocktar Issa</h1>
-				<span>I'm a <span className="text-rotating rotating-text">Software Consultant, Full stack web Developer, Software engineer, Devops professional,  machine learning enthousiast</span></span>
+				<span>I'm a <span className="text-rotating rotating-text">Software Consultant, Full stack web Developer, Software engineer, Devops professional,  Machine learning enthousiast</span></span>
 
 				{/* <!-- social icons --> */}
 				<ul className="social-icons light list-inline mb-0 mt-5">
