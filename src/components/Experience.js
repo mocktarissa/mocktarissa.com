@@ -27,17 +27,17 @@ class Experience extends Component {
                 <div class="timeline-container wow fadeInUp">
                     <div class="content">
                         <span class="time">2020 - Present</span>
-                        <h3 class="title">AWS certified Developer Associate</h3>
-                        <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                        <h3 class="title">Software Engineer at <em>Digital Trade</em> <a href="https://bilet.com">(Bilet.com</a> )</h3>
+                        <p>After working as a part-time Junior Backend Engineer in the company as Student, after my graduation I was offered a full-time position. My duty involved bulding web and Mobile apps, using the agile methodology as well as maintaining the CI/CD pipelines for automatic deployment on our Digital Ocean clusters. </p>
                     </div>
                 </div>
 
                 {/* <!-- timeline item --> */}
                 <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
                     <div class="content">
-                        <span class="time">2020 - Present</span>
-                        <h3 class="title">Saleforce Certified Solution Architect</h3>
-                        <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                        <span class="time">May 2020 - July 2020</span>
+                        <h3 class="title">Software Engineering Intern at Flutterwave Inc<em><a href="https://flutterwave.com">(Flutterwave)</a></em></h3>
+                        <p>Being a self taught Node JS     currently planning to complete the training to become a certified Saleforce Developer</p>
                     </div>
                 </div>
 
