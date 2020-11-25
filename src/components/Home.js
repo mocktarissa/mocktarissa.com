@@ -1,5 +1,5 @@
 import React from "react";
-import UnderConstruction from "./UnderConstruction";
+// import UnderConstruction from "./UnderConstruction";
 class Home extends React.Component {
   constructor(props) {
     super(props);
@@ -242,7 +242,6 @@ class Home extends React.Component {
               />
             </svg>
           </div>
-          
         </div>
       </section>
     );

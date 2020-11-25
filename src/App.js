@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 // import Home from './containers/Home';
 // import Shop from './containers/Shop';
 // import AboutMe from './containers/AboutMe';
-import Body from "./Body";
+// import Body from "./Body";
 import UnderConstruction from "./components/UnderConstruction";
 
 class App extends React.Component {
