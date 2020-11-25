@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.css';
-import Navbar from './Navbar';
+import React from "react";
+import "./App.css";
+import Navbar from "./Navbar";
 
 // import Footer from './Footer';
 // import Portfolio from './containers/Portfolio';
@@ -9,30 +9,29 @@ import Navbar from './Navbar';
 // import Home from './containers/Home';
 // import Shop from './containers/Shop';
 // import AboutMe from './containers/AboutMe';
-import Body from './Body';
-  
-class App extends React.Component {
-  constructor(props){
-    super(props);
-    this.state={
-      background: true,
-    }
-    this.handleUiChange=this.handleUiChange.bind(this);
-  }
-  handleUiChange(evt){
+import Body from "./Body";
+import UnderConstruction from "./components/UnderConstruction";
 
-    this.setState(
-      {
-      background: this.state.background? false:true
-      }
-    )
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      background: true,
+    };
+    this.handleUiChange = this.handleUiChange.bind(this);
   }
-  render(){
+  handleUiChange(evt) {
+    this.setState({
+      background: this.state.background ? false : true,
+    });
+  }
+  render() {
     return (
       <div className="App">
-        <Navbar background={this.state.background? "dark":" "}/>
-        <Body></Body>
-       {/* <Switch> 
+        <Navbar background={this.state.background ? "dark" : " "} />
+        {/* <Body></Body> */}
+        <UnderConstruction></UnderConstruction>
+        {/* <Switch> 
          <Route exact path="/" render={()=><Home/>}></Route>
         <Route exact path="/contact" render={()=><Contact/>}/>
         <Route exact path="/portfolio" render={()=><Portfolio/>}/>
@@ -40,11 +39,9 @@ class App extends React.Component {
         <Route exact path="/about" render={()=><AboutMe/>}/>
        </Switch>                     
         <Footer/> */}
-  
-         </div>
+      </div>
     );
   }
-  
 }
 
 export default App;
