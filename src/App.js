@@ -30,15 +30,15 @@ class App extends React.Component {
       <div className="App">
         <Navbar background={this.state.background ? "dark" : " "} />
         {/* <Body></Body> */}
-        <UnderConstruction></UnderConstruction>
-        {/* <Switch> 
+//         <UnderConstruction></UnderConstruction>
+        <Switch> 
          <Route exact path="/" render={()=><Home/>}></Route>
         <Route exact path="/contact" render={()=><Contact/>}/>
         <Route exact path="/portfolio" render={()=><Portfolio/>}/>
         <Route exact path="/shop" render={()=><Shop/>}/>
         <Route exact path="/about" render={()=><AboutMe/>}/>
        </Switch>                     
-        <Footer/> */}
+        <Footer/>
       </div>
     );
   }
