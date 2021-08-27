@@ -29,7 +29,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Navbar background={this.state.background ? "dark" : " "} />
-        {/* <Body></Body> */}
+       <Body></Body> 
 //         <UnderConstruction></UnderConstruction>
         <Switch> 
          <Route exact path="/" render={()=><Home/>}></Route>
