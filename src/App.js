@@ -12,6 +12,7 @@ import Footer from "./Footer";
 import Body from "./Body";
 // import UnderConstruction from "./components/UnderConstruction";
 
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -30,8 +31,8 @@ class App extends React.Component {
       <div className="App">
         <Navbar background={this.state.background ? "dark" : " "} />
         <Body></Body>
+        <Footer />     
 
-        <Footer />
       </div>
     );
   }
