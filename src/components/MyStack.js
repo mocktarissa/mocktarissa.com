@@ -24,8 +24,7 @@ class MyStack extends Component {
                 <img src="images/service-1.svg" alt="UI/UX design" />
                 <h3 class="mb-3 mt-0">UI/UX design</h3>
                 <p class="mb-0">
-                  Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
-                  commodo ligula eget.
+                  I build designs and Mockups using Figma and Adobe XD
                 </p>
               </div>
               <div class="spacer d-md-none d-lg-none" data-height="30"></div>
@@ -40,8 +39,10 @@ class MyStack extends Component {
                 <img src="images/service-2.svg" alt="UI/UX design" />
                 <h3 class="mb-3 mt-0">Web Development</h3>
                 <p class="mb-0">
-                  Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
-                  commodo ligula eget.
+                  My main stack are React js or Vanila js/Jquery for the front
+                  end and Node Js, Ruby on Rails or Laravel for the Backend. I
+                  also build Wordpress themes and plugins as well as Shopify
+                  themes and Apps.
                 </p>
               </div>
               <div class="spacer d-md-none d-lg-none" data-height="30"></div>
@@ -53,11 +54,11 @@ class MyStack extends Component {
                 class="service-box rounded data-background padding-30 text-center text-light shadow-pink"
                 data-color="#F97B8B"
               >
-                <img src="images/service-3.svg" alt="UI/UX design" />
-                <h3 class="mb-3 mt-0">Photography</h3>
+                <img src="images/client-1.svg" alt="UI/UX design" />
+                <h3 class="mb-3 mt-0">Mobile Developement</h3>
                 <p class="mb-0">
-                  Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
-                  commodo ligula eget.
+                  I build mobile apps using React Native for Cross-Platform
+                  Development
                 </p>
               </div>
             </div>
