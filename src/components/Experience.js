@@ -82,8 +82,14 @@ class Experience extends Component {
                     <span class="time">2016 - 2020</span>
                     <h3 class="title">Bachelor Degree</h3>
                     <p>
-                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
-                      nec admodum perfecto.
+                      First Class Dregree and bachelor in
+                      <b> Computer Engineering</b> from
+                      <a href="https://www.istanbul.edu.tr/en/_">
+                        {" "}
+                        Istanbul University
+                      </a>{" "}
+                      one of the 500 University in the World (According to QS
+                      World School Ranks)
                     </p>
                   </div>
                 </div>
@@ -102,7 +108,7 @@ class Experience extends Component {
                 {/* <!-- timeline item --> */}
                 <div class="timeline-container wow fadeInUp">
                   <div class="content">
-                    <span class="time">2019 - Present</span>
+                    <span class="time">2020 - 2020</span>
                     <h3 class="title">Full-stack Web developer</h3>
                     <p>
                       <em>Digital Trade Inc.</em> Working on the bilet.com
@@ -117,11 +123,13 @@ class Experience extends Component {
                   data-wow-delay="0.2s"
                 >
                   <div class="content">
-                    <span class="time">2017 - 2013</span>
-                    <h3 class="title">Front-End Developer</h3>
+                    <span class="time">2014 - 2019</span>
+                    <h3 class="title">Freelance developer</h3>
                     <p>
-                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
-                      nec admodum perfecto.
+                      Work on building multiple websites and apps for both
+                      academical and leisure purposes on my time away from
+                      school including a mockup of famous websites including
+                      facebook yelp Instagram and Amazon. 
                     </p>
                   </div>
                 </div>
@@ -132,11 +140,21 @@ class Experience extends Component {
                   data-wow-delay="0.4s"
                 >
                   <div class="content">
-                    <span class="time">2015 - 2016</span>
-                    <h3 class="title">Back-End Developer</h3>
+                    <span class="time">2018 - 2019</span>
+                    <h3 class="title">
+                      Virtual Internship (Remotely in United States)
+                    </h3>
                     <p>
-                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
-                      nec admodum perfecto.
+                      I was granted the{" "}
+                      <a href="https://www.theforage.com/">
+                        <b>Inside Sherpa Fellowship</b>
+                      </a>{" "}
+                      and as my internship project I built a stock price
+                      visualization web application that display the price of
+                      stocks and compared them to other stocks over time. I used
+                      React Js in the frontend and Python(Django) in the
+                      Backend. I also gained an understanding of financial
+                      analysis and Jp Morgan’s own Perspective API.
                     </p>
                   </div>
                 </div>
